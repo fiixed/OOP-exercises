@@ -4,7 +4,7 @@ class Card {
         this.suit = suit;
     }
     getImageUrl() {
-      console.log(`images/${this.point}_of_${this.suit}s.png`);
+      console.log(`images/${this.point}_of_${this.suit}.png`);
     }
   }
 
