@@ -23,7 +23,7 @@ class Deck {
         if (index > -1) {
             this.deck.splice(index, 1);
         }
-
+        
         console.log(randomCard);
     }
 

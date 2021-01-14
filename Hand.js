@@ -12,9 +12,7 @@ class Hand {
       if (this.hand.length == 0) {
           console.log(0);
       } else {
-          let totalPoints = this.hand.reduce((prev, current) => {
-              return prev.point + current.point;
-          });
+          let totalPoints = this.hand.reduce((prev, current) => prev.point + current.point);
           console.log(totalPoints);
       }
     }
